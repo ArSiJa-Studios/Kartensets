@@ -1,1 +1,11 @@
+{
+  "name": "vocab-api",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
 
