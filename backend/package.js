@@ -8,4 +8,3 @@
     "@supabase/supabase-js": "^2.39.0"
   }
 }
-
