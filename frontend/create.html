@@ -7,29 +7,38 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="p-6">
+<body class="bg-gray-100 p-6">
 
-  <h1 class="text-3xl font-bold mb-6">Neues Lernset</h1>
+  <h1 class="text-4xl font-bold text-indigo-600 mb-6 text-center">
+    Neues Lernset erstellen
+  </h1>
 
-  <input id="setName" class="border p-2 w-full mb-4" placeholder="Name des Lernsets">
+  <div class="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow-xl">
 
-  <select id="setCategory" class="border p-2 w-full mb-6">
-    <option>Englisch</option>
-    <option>Französisch</option>
-    <option>Spanisch</option>
-    <option>Deutsch</option>
-  </select>
+    <input id="setName" class="border p-3 w-full mb-4 rounded-xl shadow" 
+           placeholder="Name des Lernsets">
 
-  <h2 class="text-xl font-semibold mb-2">Karten</h2>
+    <select id="setCategory" class="border p-3 w-full mb-6 rounded-xl shadow">
+      <option>Englisch</option>
+      <option>Französisch</option>
+      <option>Spanisch</option>
+      <option>Deutsch</option>
+    </select>
 
-  <div id="cardsContainer"></div>
+    <h2 class="text-xl font-semibold mb-2">Karten</h2>
 
-  <button id="addCardBtn" class="bg-gray-300 px-4 py-2 mt-3">+ Karte hinzufügen</button>
+    <div id="cardsContainer"></div>
 
-  <br><br>
+    <button id="addCardBtn" 
+            class="bg-gray-300 hover:bg-gray-400 px-4 py-2 mt-3 rounded-xl w-full">
+      + Karte hinzufügen
+    </button>
 
-  <button id="publishBtn" class="bg-green-500 text-white px-6 py-3 rounded-lg">Veröffentlichen</button>
+    <button id="publishBtn"
+            class="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl mt-6 text-xl">
+      Veröffentlichen
+    </button>
 
+  </div>
 </body>
 </html>
-
