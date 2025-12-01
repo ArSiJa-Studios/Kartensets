@@ -4,20 +4,25 @@
   <title>Vokabelkarten</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 p-10">
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-6">
 
-  <h1 class="text-4xl font-bold text-center mb-10">Vokabel lernen</h1>
+  <h1 class="text-4xl md:text-6xl text-center font-extrabold mb-12 text-indigo-600">
+    Vokabel Lernen
+  </h1>
 
-  <div class="flex justify-center gap-6">
-    <a href="explore.html" class="bg-blue-500 text-white px-6 py-3 rounded-lg">
-      Erkunden
+  <div class="flex flex-col gap-6 w-full max-w-sm">
+
+    <a href="explore.html"
+       class="bg-indigo-600 hover:bg-indigo-700 text-white text-center px-6 py-4 rounded-2xl shadow-xl text-xl">
+      Erkunden 🔍
     </a>
 
-    <a href="create.html" class="bg-green-500 text-white px-6 py-3 rounded-lg">
-      Lernset erstellen
+    <a href="create.html"
+       class="bg-teal-500 hover:bg-teal-600 text-white text-center px-6 py-4 rounded-2xl shadow-xl text-xl">
+      Lernset erstellen ➕
     </a>
+
   </div>
 
 </body>
 </html>
-
