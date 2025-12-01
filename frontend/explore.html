@@ -6,16 +6,17 @@
   <script src="js/explore.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="p-6">
 
-  <h1 class="text-3xl font-bold mb-4">Öffentliche Lernsets</h1>
+<body class="bg-gray-100 p-6">
+  
+  <h1 class="text-4xl font-bold text-center text-indigo-600 mb-8">Öffentliche Lernsets</h1>
 
-  <select id="categoryFilter" class="border p-2 mb-4">
+  <select id="categoryFilter" 
+          class="border p-3 mb-8 w-full max-w-md block mx-auto rounded-xl shadow">
     <option value="">Alle Kategorien</option>
   </select>
 
-  <div id="setsContainer" class="grid grid-cols-1 gap-4"></div>
+  <div id="setsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
 
 </body>
 </html>
-
