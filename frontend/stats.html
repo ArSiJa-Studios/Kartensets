@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Statistiken</title>
+  <script src="js/api.js"></script>
+  <script src="js/stats.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-6">
+
+  <h1 class="text-4xl font-bold text-indigo-600 text-center mb-10">
+    📊 Statistiken
+  </h1>
+
+  <div class="max-w-3xl mx-auto space-y-10">
+
+    <!-- Gesamt-Zahlen -->
+    <div class="bg-white p-6 rounded-2xl shadow-xl">
+      <h2 class="text-2xl font-bold mb-4">Allgemeine Zahlen</h2>
+      <p id="totalSets" class="text-lg"></p>
+      <p id="totalCards" class="text-lg"></p>
+    </div>
+
+    <!-- Top Sets -->
+    <div class="bg-white p-6 rounded-2xl shadow-xl">
+      <h2 class="text-2xl font-bold mb-4">🔥 Top 10 Lernsets</h2>
+      <div id="topSets"></div>
+    </div>
+
+    <!-- Kategorien -->
+    <div class="bg-white p-6 rounded-2xl shadow-xl">
+      <h2 class="text-2xl font-bold mb-4">🏷️ Beliebteste Kategorien</h2>
+      <div id="topCategories"></div>
+    </div>
+
+  </div>
+
+</body>
+</html>
